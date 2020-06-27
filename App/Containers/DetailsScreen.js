@@ -53,7 +53,6 @@ class DetailsScreen extends ValidationComponent {
   }
 
   updateValues(fieldName, value) {
-    this.validate(this.validationRules)
     this.setState({
       [fieldName]: value
     })
